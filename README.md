@@ -1,4 +1,4 @@
-##Built with:
+## Built with:
 - Gatsby
 - Strapi
 - Theme: gatsby-starter-forty
