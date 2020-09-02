@@ -1,7 +1,7 @@
-Built with:
-Gatsby
-Strapi
-Theme: gatsby-starter-forty
+##Built with:
+- Gatsby
+- Strapi
+- Theme: gatsby-starter-forty
 
 ## Installation
 Clone into a local repository using git
