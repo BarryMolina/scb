@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "registration_pages",
+  "info": {
+    "name": "Registration Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "RichText": {
+      "type": "richtext"
+    }
+  }
+}
