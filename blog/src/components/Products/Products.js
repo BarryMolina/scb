@@ -20,8 +20,8 @@ export default function Products() {
     const { error } = await stripe.redirectToCheckout({
       mode: 'payment',
       lineItems: makeShopArray(),
-      successUrl: `http://localhost:8000/page-2/`,
-      cancelUrl: `http://localhost:8000/`,
+      successUrl: `http://stcroixballet.netlify.app/paymentsuccess`,
+      cancelUrl: `http://stcroixballet.netlify.app/registration`,
     })
     if (error) {
       console.warn('Error:', error)
