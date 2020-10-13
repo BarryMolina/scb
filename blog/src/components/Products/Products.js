@@ -88,7 +88,9 @@ export default function Products() {
   let stripePromise
   const getStripe = () => {
     if (!stripePromise) {
-      stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`)
+      stripePromise = loadStripe(
+        `pk_live_51HPt0uKMwW9HTmvkMc3RCJ54l78W5aCIZWKHCdgjvxDTe2ZJ1mNMIgVAv44LFsXPZve9Voghd9prLeaTRMPD6n3q00ZbysRHOM`
+      )
     }
     return stripePromise
   }

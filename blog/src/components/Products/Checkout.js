@@ -20,7 +20,7 @@ let stripePromise
 const getStripe = () => {
   if (!stripePromise) {
     stripePromise = loadStripe(
-      'pk_test_51HPt0uKMwW9HTmvkSif4ayeFLRgS80cfQeuF29tvt8ih1GafroMDI2Tsy67e7BA0zTopblg1zEQ1jQ01k59iqE6h00rQx6qOUn'
+      'pk_live_51HPt0uKMwW9HTmvkMc3RCJ54l78W5aCIZWKHCdgjvxDTe2ZJ1mNMIgVAv44LFsXPZve9Voghd9prLeaTRMPD6n3q00ZbysRHOM'
     )
   }
   return stripePromise
