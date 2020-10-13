@@ -2,9 +2,7 @@ import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import React from 'react'
-import ReactCardFlip from 'react-card-flip'
 import { graphql } from 'gatsby'
-import pic11 from '../assets/images/pic11.jpg'
 
 const Faculty = ({ data }) => (
   <Layout>

@@ -1,10 +1,8 @@
 import BannerLanding from '../components/BannerLanding'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 import React from 'react'
 import basement from '../assets/images/karlabasement.jpg'
-import cindy from '../assets/images/cindy.jpg'
 import teaching from '../assets/images/karlateaching.jpg'
 
 const Landing = props => (

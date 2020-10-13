@@ -12,83 +12,99 @@ import ProductCard from './ProductCard'
 import ReactDOM from 'react-dom'
 import { loadStripe } from '@stripe/stripe-js'
 
-const validateForm = () => {
-  var x = document.getElementsByClassName('quantity')
-  var y = 0
-  for (let box of x) {
-    if (box.value == '') {
-      y = 0
-    } else {
-      y = 1
-    }
-  }
-  if (y == 1) {
-    redirectToCheckout()
-  } else {
-    //rdebugger;
-    alert('You must set a quantity on at least one item')
-    //return false
-  }
-}
-
-const isEmpty = str => {
-  if (str == '') {
-    return 0
-  } else {
-    return parseInt(str)
-  }
-}
-const makeShopArray = () => {
-  let prodtable = document.getElementById('productlist')
-  let pricelist = []
-  var rows = document.getElementById('productlist').getElementsByTagName('tr')
-  var i = 0
-  for (let row of rows) {
-    if (i != 0 && isEmpty(row.getElementsByTagName('input')[0].value) != 0) {
-      pricelist.push({
-        price: row.cells[4].innerHTML,
-        quantity: parseInt(row.getElementsByTagName('input')[0].value),
-      })
-    }
-    i++
-  }
-  return pricelist
-}
-const buttonStyles = {
-  fontSize: '13px',
-  textAlign: 'center',
-  color: '#000',
-  padding: '12px 60px',
-  boxShadow: '2px 5px 10px rgba(0,0,0,.1)',
-  backgroundColor: 'rgb(255, 178, 56)',
-  borderRadius: '6px',
-  letterSpacing: '1.5px',
-}
-const buttonDisabledStyles = {
-  opacity: '0.5',
-  cursor: 'not-allowed',
-}
-let stripePromise
-const getStripe = () => {
-  if (!stripePromise) {
-    stripePromise = loadStripe('{process.env.STRIPE_SECRET_KEY}')
-  }
-  return stripePromise
-}
-
-const formatPrice = (amount, currency) => {
-  let price = (amount / 100).toFixed(2)
-  let numberFormat = new Intl.NumberFormat(['en-US'], {
-    style: 'currency',
-    currency: currency,
-    currencyDisplay: 'symbol',
-  })
-  return numberFormat.format(price)
-}
-
 export default function Products() {
-  const regRows = React.createRef()
+  const redirectToCheckout = async event => {
+    event.preventDefault()
+    setLoading(true)
+    const stripe = await getStripe()
+    const { error } = await stripe.redirectToCheckout({
+      mode: 'payment',
+      lineItems: makeShopArray(),
+      successUrl: `http://localhost:8000/page-2/`,
+      cancelUrl: `http://localhost:8000/`,
+    })
+    if (error) {
+      console.warn('Error:', error)
+      setLoading(false)
+    }
+  }
 
+  const validateForm = () => {
+    var x = document.getElementsByClassName('quantity')
+    var y = 0
+    for (let box of x) {
+      if (box.value == '') {
+        y = 0
+      } else {
+        y = 1
+      }
+    }
+    if (y == 1) {
+      redirectToCheckout()
+    } else {
+      //rdebugger;
+      alert('You must set a quantity on at least one item')
+      //return false
+    }
+  }
+
+  const isEmpty = str => {
+    if (str == '') {
+      return 0
+    } else {
+      return parseInt(str)
+    }
+  }
+  const makeShopArray = () => {
+    let prodtable = document.getElementById('productlist')
+    let pricelist = []
+    var rows = document.getElementById('productlist').getElementsByTagName('tr')
+    var i = 0
+    for (let row of rows) {
+      if (i != 0 && isEmpty(row.getElementsByTagName('input')[0].value) != 0) {
+        pricelist.push({
+          price: row.cells[4].innerHTML,
+          quantity: parseInt(row.getElementsByTagName('input')[0].value),
+        })
+      }
+      i++
+    }
+    return pricelist
+  }
+  const buttonStyles = {
+    fontSize: '13px',
+    textAlign: 'center',
+    color: '#000',
+    padding: '12px 60px',
+    boxShadow: '2px 5px 10px rgba(0,0,0,.1)',
+    backgroundColor: 'rgb(255, 178, 56)',
+    borderRadius: '6px',
+    letterSpacing: '1.5px',
+  }
+  const buttonDisabledStyles = {
+    opacity: '0.5',
+    cursor: 'not-allowed',
+  }
+  let stripePromise
+  const getStripe = () => {
+    if (!stripePromise) {
+      stripePromise = loadStripe(`${process.env.STRIPE_PUBLISHABLE_KEY}`)
+    }
+    return stripePromise
+  }
+
+  const formatPrice = (amount, currency) => {
+    let price = (amount / 100).toFixed(2)
+    let numberFormat = new Intl.NumberFormat(['en-US'], {
+      style: 'currency',
+      currency: currency,
+      currencyDisplay: 'symbol',
+    })
+    return numberFormat.format(price)
+  }
+
+  const regRows = React.createRef()
+  const [loading, setLoading] = useState(true)
   const enableSubmit = () => {
     console.log('we did it')
     console.log(regRows)
@@ -118,22 +134,6 @@ export default function Products() {
         alert(`We are in business, ${data.email}`)
       })
     })
-  }
-  const [loading, setLoading] = useState(true)
-  const redirectToCheckout = async event => {
-    event.preventDefault()
-    setLoading(true)
-    const stripe = await getStripe()
-    const { error } = await stripe.redirectToCheckout({
-      mode: 'payment',
-      lineItems: makeShopArray(),
-      successUrl: `http://localhost:8000/page-2/`,
-      cancelUrl: `http://localhost:8000/`,
-    })
-    if (error) {
-      console.warn('Error:', error)
-      setLoading(false)
-    }
   }
 
   return (

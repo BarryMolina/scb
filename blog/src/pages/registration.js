@@ -1,12 +1,9 @@
-import Checkout from '../components/Products/Checkout'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Products from '../components/Products/Products'
 import React from 'react'
-import ReactMarkdown from 'react-markdown'
 import chapelstudio from '../assets/images/files/chapel_schedule.jpg'
 import covid from '../assets/images/files/covid.jpg'
-import { graphql } from 'gatsby'
 import nutcrackerstudio from '../assets/images/files/nutcracker_schedule.jpg'
 import pic11 from '../assets/images/pic11.jpg'
 
