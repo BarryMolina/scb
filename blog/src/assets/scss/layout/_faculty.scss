@@ -1,0 +1,36 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+@use '../libs/vars';
+
+.employee_card {
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  background: lighten(_palette(bg), 10%);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+}
+
+.employees grid-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-post-content {
+  margin: 10%;
+}
+
+.faculty-name {
+  margin: 0;
+}

@@ -1,31 +1,67 @@
-import React from 'react'
+import Checkout from '../components/Products/Checkout'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-
+import Products from '../components/Products/Products'
+import React from 'react'
+import ReactMarkdown from 'react-markdown'
+import chapelstudio from '../assets/images/files/chapel_schedule.jpg'
+import covid from '../assets/images/files/covid.jpg'
+import { graphql } from 'gatsby'
+import nutcrackerstudio from '../assets/images/files/nutcracker_schedule.jpg'
 import pic11 from '../assets/images/pic11.jpg'
 
-const Generic = (props) => (
-    <Layout>
-        <Helmet>
-            <title>Generic - Forty by HTML5 UP</title>
-            <meta name="description" content="Generic Page" />
-        </Helmet>
+const Registration = ({ data }) => (
+  <Layout>
+    <Helmet></Helmet>
 
-        <div id="main" className="alt">
-            <section id="one">
-                <div className="inner">
-                    <header className="major">
-                        <h1>Generic</h1>
-                    </header>
-                    <span className="image main"><img src={pic11} alt="" /></span>
-                    <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-                </div>
-            </section>
+    <div id="main" className="alt">
+      <section id="one">
+        <div className="inner">
+          <header className="major">
+            <h1>Registration</h1>
+          </header>
+          <span className="image main">
+            <img src={pic11} alt="" />
+          </span>
+          <h2>Register for Fall 2020 Here</h2>
+          <u>
+            <a href={covid}>
+              <p>SCB Health and Safety Plan</p>
+            </a>
+            <a href={chapelstudio}>
+              <p>Chapel Studio Schedule </p>
+            </a>
+            <a href={nutcrackerstudio}>
+              <p>Nutcracker Studio Schedule</p>
+            </a>
+          </u>
+          <h4>
+            New students and families, please email SCB for enrollment
+            availability and placement information at{' '}
+            <a href="mailto:stcroixballet@gmail.com">stcroixballet@gmail.com</a>
+          </h4>
         </div>
-
-    </Layout>
+      </section>
+      <section id="2">
+        <div className="inner">
+          <h3>Select Your Registration Items Below</h3>
+          <Products />
+        </div>
+      </section>
+    </div>
+  </Layout>
 )
 
-export default Generic
+export default Registration
+
+export const pageQuery = graphql`
+  query Banner {
+    allStrapiRegistrationPage {
+      edges {
+        node {
+          content
+        }
+      }
+    }
+  }
+`
