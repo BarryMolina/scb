@@ -53,15 +53,3 @@ const Registration = ({ data }) => (
 )
 
 export default Registration
-
-export const pageQuery = graphql`
-  query Banner {
-    allStrapiRegistrationPage {
-      edges {
-        node {
-          content
-        }
-      }
-    }
-  }
-`
