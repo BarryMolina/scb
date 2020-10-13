@@ -8,7 +8,6 @@ const Covid = props => (
       <title>Nutcracker Suite 2020</title>
       <meta name="description" content="Announcing Nutcracker Suite 2020" />
     </Helmet>
-
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
