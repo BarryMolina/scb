@@ -106,17 +106,12 @@ export default function Products() {
   const regRows = React.createRef()
   const [loading, setLoading] = useState(true)
   const enableSubmit = () => {
-    console.log('we did it')
-    console.log(regRows)
-
     const enabled = Array.prototype.slice
       .call(regRows.current.children)
       .some(prod => {
         return Boolean(Number(prod.children[3].children.quantity.value || '0'))
       })
     setLoading(!enabled)
-    console.log(enabled)
-
     // let sumQuan = 0
     //const productMap = map(regRows.current.children, (prod) => {
     //  sumQuan.(prod.children[3].children.quantity.value)
