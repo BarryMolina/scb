@@ -1,7 +1,7 @@
 const activeEnv =
   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || 'development'
 console.log(`Using environment config: '${activeEnv}'`)
-
+console.log(`Stripe Pub Key: '${process.env.STRIPE_PUBLISHABLE_KEY}'`)
 require('dotenv').config({
   path: `./.env.${activeEnv}`,
 })
