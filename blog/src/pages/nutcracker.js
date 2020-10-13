@@ -7,7 +7,7 @@ import pic11 from '../assets/images/pic11.jpg'
 const Covid = props => (
   <Layout>
     <Helmet>
-      <title>Covid 19 Update</title>
+      <title>Nutcracker Suite 2020</title>
       <meta name="description" content="Covid 19 Info" />
     </Helmet>
 
