@@ -34,8 +34,8 @@ const Checkout = () => {
     const { error } = await stripe.redirectToCheckout({
       mode: 'payment',
       lineItems: [{ price: 'price_1HPtoBKMwW9HTmvkPUSUX7KL', quantity: 1 }],
-      successUrl: `http://localhost:8000/page-2/`,
-      cancelUrl: `http://localhost:8000/`,
+      successUrl: `http://stcroixballet.netlify.app/paymentsuccess`,
+      cancelUrl: `http://stcroixballet.netlify.app/registration`,
     })
     if (error) {
       console.warn('Error:', error)
