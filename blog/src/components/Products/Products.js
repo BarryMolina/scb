@@ -8,7 +8,6 @@ import React, { createRef, useState } from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
 import InputNumber from 'rc-input-number'
-import ProductCard from './ProductCard'
 import ReactDOM from 'react-dom'
 import { loadStripe } from '@stripe/stripe-js'
 
