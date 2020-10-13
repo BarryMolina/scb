@@ -8,7 +8,7 @@ const Covid = props => (
   <Layout>
     <Helmet>
       <title>Nutcracker Suite 2020</title>
-      <meta name="description" content="Covid 19 Info" />
+      <meta name="description" content="Announcing Nutcracker Suite 2020" />
     </Helmet>
 
     <div id="main" className="alt">
