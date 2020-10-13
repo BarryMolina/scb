@@ -4,7 +4,7 @@ console.log(`Using environment config: '${activeEnv}'`)
 require('dotenv').config({
   path: `./.env.${activeEnv}`,
 })
-console.log(`Stripe Pub Key: '${process.env.STRIPE_PUBLISHABLE_KEY}'`)
+console.log(`Stripe Pub Key: '${process.env.GATSBY_STRIPE_PUBLISHABLE_KEY}'`)
 
 module.exports = {
   //pathPrefix: `/scb`,
@@ -40,7 +40,7 @@ module.exports = {
       resolve: `gatsby-source-stripe`,
       options: {
         objects: ['Price'],
-        secretKey: process.env.STRIPE_SECRET_KEY,
+        secretKey: process.env.GATSBY_STRIPE_SECRET_KEY,
         downloadFiles: false,
       },
     },
