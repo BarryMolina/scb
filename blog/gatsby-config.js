@@ -2,7 +2,7 @@ require('dotenv').config({
   path: `../.env.${process.env.NODE_ENV}`,
 })
 module.exports = {
-  pathPrefix: `/scb`,
+  //pathPrefix: `/scb`,
   siteMetadata: {
     title: 'St. Croix Ballet',
     author: 'Roerick Sweeney',
@@ -29,19 +29,6 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: 'gatsby-source-strapi',
-      options: {
-        apiURL: 'http://localhost:1337',
-        contentTypes: [],
-        singleTypes: [
-          'home-page',
-          'registration-page',
-          'the-karla-sweeney-foundation',
-        ],
-        queryLimit: 1000,
       },
     },
     {
