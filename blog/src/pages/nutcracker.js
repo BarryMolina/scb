@@ -1,6 +1,7 @@
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import React from 'react'
+import waltz from '../assets/images/waltz.jpg'
 
 const Covid = props => (
   <Layout>
@@ -23,6 +24,8 @@ const Covid = props => (
           </p>
         </div>
       </section>
+
+      <img src={waltz} class="basicinline"></img>
     </div>
   </Layout>
 )
