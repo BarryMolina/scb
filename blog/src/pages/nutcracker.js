@@ -12,7 +12,7 @@ const Covid = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h1>Nutcracker Suite 2020</h1>
+            <h2>Nutcracker Suite 2020</h2>
           </header>
           <p>
             St. Croix Ballet is pleased to announce that we will be performing a
