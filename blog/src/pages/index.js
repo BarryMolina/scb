@@ -17,8 +17,15 @@ class HomeIndex extends React.Component {
         <Helmet
           title="St. Croix Ballet"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content: 'Classical Training At Its Finest',
+            },
+            {
+              name: 'keywords',
+              content:
+                'ballet, st croix, stillwater, vagonova, classical, dance',
+            },
           ]}
         ></Helmet>
 
