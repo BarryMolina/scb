@@ -9,17 +9,18 @@ import pic11 from '../assets/images/pic11.jpg'
 
 const Registration = ({ data }) => (
   <Layout>
-    <Helmet></Helmet>
+    <Helmet title="St. Croix Ballet - Registration"></Helmet>
 
     <div id="main" className="alt">
+      <span className="image main">
+        <img src={pic11} alt="" class="basicinline" />
+      </span>
       <section id="one">
-        <div className="inner">
+        <div className="inner basicbody">
           <header className="major">
             <h1>Registration</h1>
           </header>
-          <span className="image main">
-            <img src={pic11} alt="" />
-          </span>
+
           <h2>Register for Fall 2020 Here</h2>
           <u>
             <a href={covid}>
