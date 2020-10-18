@@ -26,6 +26,10 @@ class HomeIndex extends React.Component {
               content:
                 'ballet, st croix, stillwater, vagonova, classical, dance',
             },
+            {
+              name: 'og:title',
+              content: 'St. Croix Ballet - Classical Training At Its Finest',
+            },
           ]}
         ></Helmet>
 
