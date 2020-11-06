@@ -1,4 +1,5 @@
 import Banner from '../components/Banner'
+import Contact from '../components/Contact'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
@@ -81,6 +82,7 @@ class HomeIndex extends React.Component {
             </article>
           </section>
           <section id="two"></section>
+          <Contact />
         </div>
       </Layout>
     )
