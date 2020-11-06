@@ -1,7 +1,7 @@
 import BannerLanding from '../components/BannerLanding'
+import Contact from '../components/contact'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 import React from 'react'
 import cindy from '../assets/images/cindy.jpg'
 import gigionne from '../assets/images/gigionne.jpg'
@@ -95,6 +95,7 @@ const Landing = props => (
           </div>
         </section>
       </section>
+      <Contact />
     </div>
   </Layout>
 )
