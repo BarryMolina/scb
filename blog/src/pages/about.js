@@ -1,5 +1,5 @@
 import BannerLanding from '../components/BannerLanding'
-import Contact from '../components/contact'
+import Contact from '../components/Contact'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import React from 'react'
