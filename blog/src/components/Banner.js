@@ -12,7 +12,7 @@ const Banner = props => (
         <ul className="actions">
           <li>
             <Link to="/nutcracker" className="button next scrolly">
-              Learn More
+              Read More
             </Link>
           </li>
         </ul>
