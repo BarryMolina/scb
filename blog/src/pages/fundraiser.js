@@ -16,6 +16,47 @@ const Fundraiser = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
+          <h3>UPDATE: November 27, 2020</h3>
+          <p>Dear Friends,</p> <p>The magic is alive.</p>{' '}
+          <p>
+            One week ago we sent a letter sharing that the challenge of Covid-19
+            has severely impacted St. Croix Ballet and threatened our survival.{' '}
+          </p>{' '}
+          <p>
+            You responded with an incredible outpouring of love and support that
+            was overwhelming and heartwarming and we are so grateful. In just
+            one week, we made a very strong beginning in reaching our $30,000
+            goal.{' '}
+          </p>{' '}
+          <p>
+            You are truly a part of the St. Croix Ballet family. Your gift is
+            helping to save a special place for the children today and the ones
+            yet to come. You are making a difference in the youth who are
+            touched by SCB.
+          </p>{' '}
+          <p>
+            NEWS BULLETIN! Just yesterday an anonymous donor has stepped up with
+            a Challenge Grant to match all contributions to support St. Croix
+            Ballet from now until December 31st—up to $12,500!!!{' '}
+          </p>{' '}
+          <p>Many of you have already given generously. Thank you. </p>{' '}
+          <p>
+            To All: whatever amount and additional amount you are willing and
+            able to contribute today and in the next 27 days will be matched by
+            this generous Challenge Grant and will help us reach our goal. This
+            is a chance for your gift to have twice the power towards saving the
+            studio. Thank you in advance for your support. (Give by clicking the
+            DONATE link below).
+          </p>{' '}
+          <p>With profound gratitude,</p>{' '}
+          <p>
+            Susan Hovey<br></br>
+            Artistic Director
+          </p>{' '}
+          <p>
+            Brian Sweeney<br></br>
+            Co-Founder
+          </p>
           <header className="major">
             <h3>This Thanksgiving, the magic of the Nutcracker needs you!</h3>
           </header>
