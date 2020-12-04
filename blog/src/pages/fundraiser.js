@@ -24,7 +24,7 @@ const Fundraiser = props => (
           <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
             <button>Donate</button>
           </a>
-          <h3>UPDATE: November 27, 2020</h3>
+          <h3>UPDATE: December 4th, 2020</h3>
           <p>Dear Friends,</p> <p>The magic is alive.</p>{' '}
           <p>
             One week ago we sent a letter sharing that the challenge of Covid-19
