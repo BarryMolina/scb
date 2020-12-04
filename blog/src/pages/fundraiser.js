@@ -17,10 +17,9 @@ const Fundraiser = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h3>
-              The Magic of Nutcracker Is Working! Amazing New Opportunity:
-              12,500$ challenge grant!
-            </h3>
+            <h3>The Magic of Nutcracker Is Working! </h3>
+
+            <h4>Amazing New Opportunity: 12,500$ challenge grant!</h4>
           </header>
           <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
             <button>Donate</button>
