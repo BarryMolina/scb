@@ -16,6 +16,12 @@ const Fundraiser = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
+          <header className="major">
+            <h3>This Thanksgiving, the magic of the Nutcracker needs you!</h3>
+          </header>
+          <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
+            <button>Donate</button>
+          </a>
           <h3>UPDATE: November 27, 2020</h3>
           <p>Dear Friends,</p> <p>The magic is alive.</p>{' '}
           <p>
@@ -57,12 +63,11 @@ const Fundraiser = props => (
             Brian Sweeney<br></br>
             Co-Founder
           </p>
-          <header className="major">
-            <h3>This Thanksgiving, the magic of the Nutcracker needs you!</h3>
-          </header>
-          <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
-            <button>Donate</button>
-          </a>
+          <p>
+            <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
+              <button>Donate</button>
+            </a>
+          </p>
           <p></p>
           <h3>November 27, 2020</h3>
           <p>Dear Friends and Family of St. Croix Ballet,</p>
@@ -133,11 +138,6 @@ const Fundraiser = props => (
             <b>Brian Sweeney</b> - Co-Founder
           </p>
           <p></p>
-          <p>
-            <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
-              <button>Donate</button>
-            </a>
-          </p>
         </div>
       </section>
     </div>
