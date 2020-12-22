@@ -9,7 +9,7 @@ const Banner = props => (
       </header>
       <div className="content">
         <h3>
-          UPDATE: $12,500 Challenge Grant - Secure St. Croix Ballet’s Future!
+          The Magic of Nutcracker, a Christmas Star, and a $12,500 Matching Gift
         </h3>
         <ul className="actions">
           <li>

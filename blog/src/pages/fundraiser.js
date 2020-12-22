@@ -16,6 +16,9 @@ const Fundraiser = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
+          <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
+            <button>Donate</button>
+          </a>
           <h3>
             The Magic of Nutcracker, a Christmas Star, and a $12,500 Matching
             Gift
@@ -52,9 +55,6 @@ const Fundraiser = props => (
 
             <h4>Amazing New Opportunity: $12,500 Challenge Grant!</h4>
           </header>
-          <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
-            <button>Donate</button>
-          </a>
           <h3>UPDATE: December 4th, 2020</h3>
           <p>Dear Friends,</p> <p>The magic is alive.</p>{' '}
           <p>
@@ -87,15 +87,8 @@ const Fundraiser = props => (
             studio. Thank you in advance for your support. (Give by clicking the
             DONATE link below).
           </p>{' '}
-          <p>With profound gratitude,</p>{' '}
-          <p>
-            Susan Hovey<br></br>
-            Artistic Director
-          </p>{' '}
-          <p>
-            Brian Sweeney<br></br>
-            Co-Founder
-          </p>
+          <p>With profound gratitude,</p> <p>Susan Hovey - Artistic Director</p>{' '}
+          <p>Brian Sweeney - Co-Founder</p>
           <p>
             <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
               <button>Donate</button>
