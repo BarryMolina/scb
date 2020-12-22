@@ -16,6 +16,37 @@ const Fundraiser = props => (
     <div id="main" className="alt">
       <section id="one">
         <div className="inner">
+          <h3>
+            The Magic of Nutcracker, a Christmas Star, and a $12,500 Matching
+            Gift
+          </h3>
+          <h3>UPDATE: December 24th, 2020</h3>
+          <p>Dear Friends,</p>
+          <p>
+            In this season of gratitude and hope and even the magic of a
+            Christmas star not seen in 800 years, we want to thank all of you
+            for being a part of securing the future of St. Croix Ballet. We are
+            very close to matching the $12,500 matching gift for all
+            contributions given through December 31st.
+          </p>
+          <p>
+            In the next week, any additional contribution you give will be
+            doubled by this generous donor’s match.
+          </p>
+          <p>
+            We wish you all a most blessed Christmas and look forward to seeing
+            you in the new year.
+          </p>
+          <p>
+            With profound Thanks, <br></br>
+            Susan Hovey Artistic Director <br></br>
+            Brian Sweeney Co-Founder <br></br>
+          </p>
+          <p>
+            Note: The CARES Act, which expires December 31, 2020 allows donors
+            (even if they do not itemize deductions) to deduct up to $300 in
+            charitable gifts on their 2020 tax returns).
+          </p>
           <header className="major">
             <h3>The Magic of Nutcracker Is Working! </h3>
 
