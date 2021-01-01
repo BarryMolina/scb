@@ -19,6 +19,33 @@ const Fundraiser = props => (
           <a href="https://donorbox.org/help-st-croix-ballet-during-covid-19">
             <button>Donate</button>
           </a>
+          <h3>UPDATE: You Did It! Fundraising Goal Achieved!</h3>
+          <p>Dear Friends,</p>
+          <p>
+            33 days ago we reached out to share the critical challenge facing
+            St. Croix Ballet due to the impact of Covid-19. The outpouring from
+            families, alum, and lovers of the Stillwater Nutcracker has been
+            incredible—and incredibly touching. Not only did you help SCB reach
+            the $30,000 fundraising goal, but we also met the $12,500 match made
+            by a very generous anonymous donor. The matched propelled us past
+            our initial goal and as of midnight, January 1, 2021, we have raised
+            $37,648!!!!!
+          </p>
+          <p>
+            While no one knows the future course of Covid-19 and how it impacts
+            schools, sports activities, and our ballet studio, we are full of
+            hope and promise for a new year. Because of your generosity, St.
+            Croix Ballet carries on. You literally helped save us and for that
+            we are deeply moved and grateful!
+          </p>
+          <p>
+            As St. Croix Ballet enters it’s 30th year, let us collectively lift
+            a glass of hope and good cheer for a successful 2021 for all! See
+            you at the 30th Annual Stillwater Nutcracker—and hopefully before.
+          </p>
+          <p>With profound Gratitude and Thanks,</p>
+          <p>Susan Hovey Artistic Director</p>
+          <p>Brian Sweeney Co-Founder</p>
           <h3>
             The Magic of Nutcracker, a Christmas Star, and a $12,500 Matching
             Gift

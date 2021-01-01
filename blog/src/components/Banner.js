@@ -8,9 +8,7 @@ const Banner = props => (
         <h1>St. Croix Ballet</h1>
       </header>
       <div className="content">
-        <h3>
-          The Magic of Nutcracker, a Christmas Star, and a $12,500 Matching Gift
-        </h3>
+        <h3>You Did It! Fundraising Goal Achieved!</h3>
         <ul className="actions">
           <li>
             <Link to="/fundraiser" className="button next scrolly">
