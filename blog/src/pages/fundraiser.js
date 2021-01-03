@@ -5,6 +5,7 @@ import bow from '../assets/images/bow.jpeg'
 import covid from '../assets/images/files/covid.jpg'
 import pic11 from '../assets/images/pic11.jpg'
 import rainbow from '../assets/images/rainbow.jpeg'
+import thank from '../assets/images/thank.png'
 
 const Fundraiser = props => (
   <Layout>
@@ -31,6 +32,7 @@ const Fundraiser = props => (
             our initial goal and as of midnight, January 1, 2021, we have raised
             $37,648!!!!!
           </p>
+          <img className="image postimage" align="right" src={bow} alt="" />
           <p>
             While no one knows the future course of Covid-19 and how it impacts
             schools, sports activities, and our ballet studio, we are full of
