@@ -32,7 +32,7 @@ const Fundraiser = props => (
             our initial goal and as of midnight, January 1, 2021, we have raised
             $37,648!!!!!
           </p>
-          <img className="image postimage" align="right" src={bow} alt="" />
+          <img className="image postimage" align="right" src={thank} alt="" />
           <p>
             While no one knows the future course of Covid-19 and how it impacts
             schools, sports activities, and our ballet studio, we are full of
