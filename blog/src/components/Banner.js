@@ -8,11 +8,14 @@ const Banner = props => (
         <h1>St. Croix Ballet</h1>
       </header>
       <div className="content">
-        <h3>You Did It! Fundraising Goal Achieved!</h3>
+        <h3>
+          A Full Summer Session begins June 14th! An August Summer Intensive!
+          Summer Gala at Pioneer Park!
+        </h3>
         <ul className="actions">
           <li>
-            <Link to="/fundraiser" className="button next scrolly">
-              Donate Today!
+            <Link to="/registration" className="button next scrolly">
+              Register Now
             </Link>
           </li>
         </ul>

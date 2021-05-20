@@ -2,10 +2,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Products from '../components/Products/Products'
 import React from 'react'
-import chapelstudio from '../assets/images/files/chapel_schedule.jpg'
-import covid from '../assets/images/files/covid.jpg'
 import nutcrackerstudio from '../assets/images/files/nutcracker_schedule.jpg'
 import pic11 from '../assets/images/pic11.jpg'
+import summer from '../assets/files/summer_schedule.pdf'
 
 const Registration = ({ data }) => (
   <Layout>
@@ -21,22 +20,17 @@ const Registration = ({ data }) => (
             <h1>Registration</h1>
           </header>
 
-          <h2>Register for Fall 2020 Here</h2>
+          <h2>Register for Fall 2021 Here</h2>
           <u>
-            <a href={covid}>
-              <p>SCB Health and Safety Plan</p>
-            </a>
-            <a href={chapelstudio}>
-              <p>Chapel Studio Schedule </p>
-            </a>
-            <a href={nutcrackerstudio}>
-              <p>Nutcracker Studio Schedule</p>
+            <a href={summer}>
+              <p>Summer Schedule</p>
             </a>
           </u>
           <h4>
-            New students and families, please email SCB for enrollment
-            availability and placement information at{' '}
-            <a href="mailto:stcroixballet@gmail.com">stcroixballet@gmail.com</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeSOOiskIB6fDfOmpShkxRVXganihLqzjGry79TpqA4RVJnA/viewform">
+              Click here to submit your registration information, then submit
+              payment below.
+            </a>
           </h4>
         </div>
       </section>

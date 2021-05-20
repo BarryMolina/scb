@@ -38,13 +38,6 @@ class HomeIndex extends React.Component {
 
         <div id="main">
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${zoom})` }}>
-              <header className="major">
-                <h3>Covid-19 Info</h3>
-                <p>Stay up to date</p>
-              </header>
-              <Link to="/covid" className="link primary"></Link>
-            </article>
             <article style={{ backgroundImage: `url(${snow})` }}>
               <header className="major">
                 <h3>Nutcracker Suite</h3>
@@ -79,6 +72,13 @@ class HomeIndex extends React.Component {
                 <p>Our Founder's Legacy</p>
               </header>
               <Link to="/karla" className="link primary"></Link>
+            </article>
+            <article style={{ backgroundImage: `url(${zoom})` }}>
+              <header className="major">
+                <h3>Covid-19 Info</h3>
+                <p>Stay up to date</p>
+              </header>
+              <Link to="/covid" className="link primary"></Link>
             </article>
           </section>
           <section id="two"></section>
