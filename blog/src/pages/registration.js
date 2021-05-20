@@ -19,17 +19,8 @@ const Registration = ({ data }) => (
           <header className="major">
             <h1>Registration</h1>
           </header>
-          <p>
-            Dear St. Croix Ballet Dancers and Families, The end of our 4th
-            quarter is fast approaching! Here are some upcoming dates from our
-            calendar:
-          </p>
+          <h2>Summer Calendar</h2>
           <ul>
-            <li>May 25: Last Day of Classes for Ms. Rosa's groups</li>
-            <li>May 26: Last Day of Classes for Ms. Rosa's groups</li>
-            <li>May 31: Memorial Day - no classes</li>
-            <li>June 1 - 4: Last week of 4th quarter classes</li>
-            <li>June 7 - 11: Studio Break - no classes</li>
             <li>
               June 14 - August 13: Summer Session (for those not participating
               in the intensive)
@@ -40,18 +31,15 @@ const Registration = ({ data }) => (
             </li>
           </ul>
           <p>
-            Further information and registration for the intensive will follow
-            this week! SUMMER AT ST. CROIX BALLET We look forward to keeping you
-            dancing over the summer. We anticipate a full fall schedule
-            including Nutcracker auditions (September 11), Saturday rehearsals,
-            and six Thanksgiving weekend performances. Instead of a modified
-            schedule as we have done during the summer in the past, this summer
-            we will keep our current schedule which I have attached.
+            We look forward to keeping you dancing over the summer. We
+            anticipate a full fall schedule including Nutcracker auditions
+            (September 11), Saturday rehearsals, and six Thanksgiving weekend
+            performances.
           </p>
           <h2>
-            August Summer Intensive Registration Information coming soon. Dates:
-            August 2nd to August 19th.{' '}
+            August Summer Intensive Registration Information coming soon.{' '}
           </h2>
+          <h4>Dates: August 2nd to August 19th. </h4>
           <u>
             <a href={summer}>
               <p>Summer Class Schedule</p>
