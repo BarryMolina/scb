@@ -35,7 +35,9 @@ const Registration = ({ data }) => (
               in the intensive)
             </li>
             <li>August 2 - 19: Summer Intensive (Level 1-6 and up)*</li>
-            <li>August 20: Summer Gala at Pioneer Park</li>
+            <li>
+              <b>August 20: Summer Gala at Pioneer Park</b>
+            </li>
           </ul>
           <p>
             Further information and registration for the intensive will follow
@@ -46,7 +48,10 @@ const Registration = ({ data }) => (
             schedule as we have done during the summer in the past, this summer
             we will keep our current schedule which I have attached.
           </p>
-          <h2>Register for Fall 2021 Below</h2>
+          <h2>
+            August Summer Intensive Registration Information coming soon. Dates:
+            August 2nd to August 19th.{' '}
+          </h2>
           <u>
             <a href={summer}>
               <p>Summer Class Schedule</p>
