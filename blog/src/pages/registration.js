@@ -19,17 +19,44 @@ const Registration = ({ data }) => (
           <header className="major">
             <h1>Registration</h1>
           </header>
-
-          <h2>Register for Fall 2021 Here</h2>
+          <p>
+            Dear St. Croix Ballet Dancers and Families, The end of our 4th
+            quarter is fast approaching! Here are some upcoming dates from our
+            calendar:
+          </p>
+          <ul>
+            <li>May 25: Last Day of Classes for Ms. Rosa's groups</li>
+            <li>May 26: Last Day of Classes for Ms. Rosa's groups</li>
+            <li>May 31: Memorial Day - no classes</li>
+            <li>June 1 - 4: Last week of 4th quarter classes</li>
+            <li>June 7 - 11: Studio Break - no classes</li>
+            <li>
+              June 14 - August 13: Summer Session (for those not participating
+              in the intensive)
+            </li>
+            <li>August 2 - 19: Summer Intensive (Level 1-6 and up)*</li>
+            <li>August 20: Summer Gala at Pioneer Park</li>
+          </ul>
+          <p>
+            Further information and registration for the intensive will follow
+            this week! SUMMER AT ST. CROIX BALLET We look forward to keeping you
+            dancing over the summer. We anticipate a full fall schedule
+            including Nutcracker auditions (September 11), Saturday rehearsals,
+            and six Thanksgiving weekend performances. Instead of a modified
+            schedule as we have done during the summer in the past, this summer
+            we will keep our current schedule which I have attached.
+          </p>
+          <h2>Register for Fall 2021 Below</h2>
           <u>
             <a href={summer}>
-              <p>Summer Schedule</p>
+              <p>Summer Class Schedule</p>
             </a>
           </u>
           <h4>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeSOOiskIB6fDfOmpShkxRVXganihLqzjGry79TpqA4RVJnA/viewform">
               Click here to submit your registration information, then submit
-              payment below.
+              payment below. Tuition can also be paid via check at the studio
+              mailbox. There is no registration fee for summer classes.
             </a>
           </h4>
         </div>
