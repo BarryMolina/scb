@@ -138,7 +138,7 @@ export default function Products() {
         query ProductQuery {
           prices: allStripePrice(
             filter: { active: { eq: true } }
-            sort: { fields: [unit_amount] }
+            sort: { fields: [product___name] }
           ) {
             edges {
               node {
