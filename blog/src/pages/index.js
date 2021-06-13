@@ -73,13 +73,6 @@ class HomeIndex extends React.Component {
               </header>
               <Link to="/karla" className="link primary"></Link>
             </article>
-            <article style={{ backgroundImage: `url(${zoom})` }}>
-              <header className="major">
-                <h3>Covid-19 Info</h3>
-                <p>Stay up to date</p>
-              </header>
-              <Link to="/covid" className="link primary"></Link>
-            </article>
           </section>
           <section id="two"></section>
           <Contact />
