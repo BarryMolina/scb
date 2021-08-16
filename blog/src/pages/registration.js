@@ -22,7 +22,7 @@ const Registration = ({ data }) => (
           </header>
           <u>
             <a href={schedule}>
-              <p>Fall Registration</p>
+              <p>Click Here for the Fall Class Schedule</p>
             </a>
           </u>
           <h4>
