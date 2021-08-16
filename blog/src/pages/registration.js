@@ -5,7 +5,7 @@ import React from 'react'
 import nutcrackerstudio from '../assets/images/files/nutcracker_schedule.jpg'
 import pic11 from '../assets/images/pic11.jpg'
 import summer from '../assets/files/summer_schedule.pdf'
-import schedule from '../assets/files/schedule2021.docx'
+import schedule from '../assets/files/schedule2021.pdf'
 
 const Registration = ({ data }) => (
   <Layout>
