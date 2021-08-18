@@ -26,11 +26,8 @@ const Registration = ({ data }) => (
             </a>
           </u>
           <h4>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeSOOiskIB6fDfOmpShkxRVXganihLqzjGry79TpqA4RVJnA/viewform">
-              Click here to submit your registration information, then submit
-              payment below. Tuition can also be paid via check at the studio
+Tuition can also be paid via check at the studio
               mailbox.
-            </a>
           </h4>
 
 <h4>Tuition is due at the beginning of each quarter:</h4>
