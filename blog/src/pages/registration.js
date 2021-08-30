@@ -25,6 +25,9 @@ const Registration = ({ data }) => (
               <p>Click Here for the Fall Class Schedule</p>
             </a>
           </u>
+          <h3>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScZNnh2EhwwJiV_TX-dvDB6dU2Pd-xGICOkEShzI4buRobL3Q/viewform">Click here to fill out the Google form to select classes, and then pay using the form below</a>
+          </h3>
           <h4>
 Tuition can also be paid via check at the studio
               mailbox.
