@@ -34,7 +34,7 @@ Tuition can also be paid via check at the studio
           </h4>
 
 <h4>Tuition is due at the beginning of each quarter:</h4>
-<p>First Quarter:  August 30, 2021 - October 31, 2021</p>
+<p>First Quarter:  September 7, 2021 - October 31, 2021</p>
 <p>Second Quarter:  November 1, 2021 - January 7, 2022</p>
 <p>Third Quarter:   January 10, 2022 - March 11, 2022</p>
 <p>Fourth Quarter:  March 14, 2022 - May 27, 2022</p>
