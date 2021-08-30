@@ -9,8 +9,7 @@ const Banner = props => (
       </header>
       <div className="content">
         <h3>
-          A Full Summer Session begins June 14th! An August Summer Intensive!
-          Summer Gala at Pioneer Park!
+          Fall classes begin September 6th!
         </h3>
         <ul className="actions">
           <li>
