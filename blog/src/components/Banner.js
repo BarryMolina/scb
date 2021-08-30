@@ -9,7 +9,7 @@ const Banner = props => (
       </header>
       <div className="content">
         <h3>
-          Fall classes begin September 6th!
+          Fall classes begin September 7th!
         </h3>
         <ul className="actions">
           <li>
