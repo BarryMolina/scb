@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${snow})` }}>
               <header className="major">
-                <h3>Nutcracker Suite</h3>
+                <h3>Nutcracker</h3>
                 <p>Stay up to date</p>
               </header>
               <Link to="/nutcracker" className="link primary"></Link>

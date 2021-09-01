@@ -13,25 +13,19 @@ const Covid = props => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Nutcracker Suite 2020</h2>
-            <h3>November 18th Update</h3>
-          </header>
-           <p>Dear Friends and Families of St. Croix Ballet,</p>
-          <p>
-            While it was our hope to present a live shortened version (with
-            limited seating) of the Nutcracker Suite Thanksgiving weekend, the
-            recent spikes of Covid-19 and the additional directives from the
-            Governor and the school district does not allow us to perform  live.
-            We will, however, be taping a show over the Thanksgiving holiday
-            which we will make available as a streaming event for the Christmas
-            season. We will let you know when the link becomes available.
-          </p>
-           
-          <p>
-            Thank you all for your understanding during this time of difficult
-            decisions and your continued support of St. Croix Ballet.
-          </p>
-           <p>A happy Thanksgiving to all.</p> <p>Ms. Susan</p>
+            <h2>The 30th Annual Stillwater Nutcracker</h2>
+          </header> 
+		 
+
+		<h4>St. Croix Ballet will be performing the 30th Annual Stillwater Nutcracker on Thanksgiving Weekend--November 26th, 27th, and 28th at the Stillwater Area High School.  </h4>
+
+		 
+
+		<h4>TICKETS  for the six performances will go on sale in mid-October.</h4>
+
+		 
+
+		<h4>NUTCRACKER AUDITIONS at the Studio on September 11th. </h4>
         </div>
       </section>
 
