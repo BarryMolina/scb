@@ -16,8 +16,10 @@ const Covid = props => (
             <h2>The 30th Annual Stillwater Nutcracker</h2>
           </header>
 
-          <button href="https://ci.ovationtix.com/35795/production/1083769">
-            Buy Your Tickets Today!
+          <button>
+            <a href="https://ci.ovationtix.com/35795/production/1083769">
+              Buy Your Tickets Today!
+            </a>
           </button>
           <p></p>
           <p>
@@ -42,8 +44,10 @@ const Covid = props => (
             Please note that all ticket holders ages 5 and above are required to
             wear a mask and follow all COVID safety protocols.
           </p>
-          <button href="https://ci.ovationtix.com/35795/production/1083769">
-            Buy Your Tickets Today!
+          <button>
+            <a href="https://ci.ovationtix.com/35795/production/1083769">
+              Buy Your Tickets Today!
+            </a>
           </button>
           <p></p>
         </div>
