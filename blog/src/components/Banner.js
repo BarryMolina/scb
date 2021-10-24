@@ -8,13 +8,11 @@ const Banner = props => (
         <h1>St. Croix Ballet</h1>
       </header>
       <div className="content">
-        <h3>
-          Fall classes begin September 7th!!
-        </h3>
+        <h3>The 30th Annual Stillwater Nutcracker</h3>
         <ul className="actions">
           <li>
             <Link to="/registration" className="button next scrolly">
-              Register Now
+              Buy your tickets TODAY!
             </Link>
           </li>
         </ul>
