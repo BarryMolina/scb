@@ -11,7 +11,7 @@ const Banner = props => (
         <h3>The 30th Annual Stillwater Nutcracker</h3>
         <ul className="actions">
           <li>
-            <Link to="/registration" className="button next scrolly">
+            <Link to="/nutcracker" className="button next scrolly">
               Buy your tickets TODAY!
             </Link>
           </li>
